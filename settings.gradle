@@ -26,10 +26,6 @@ dependencyResolutionManagement {
             authentication {
                 header(HttpHeaderAuthentication)
             }
-//            authentication {
-//                basic(BasicAuthentication)
-//            }
-
         }
 
     }
