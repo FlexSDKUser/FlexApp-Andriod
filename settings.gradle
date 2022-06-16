@@ -1,0 +1,38 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://raw.github.com/embarkmobile/zxing-android-minimal/mvn-repo/maven-repository/"
+        }
+        maven {
+            url 'https://maven.google.com/'
+        }
+        maven { url "https://jitpack.io" }
+        maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases' }
+        maven { url "https://raw.githubusercontent.com/FlexSDKCreator/SDK_Andriod/main"
+            credentials(HttpHeaderCredentials) {
+                name "Authorization"
+                value "Bearer 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"
+            }
+            authentication {
+                header(HttpHeaderAuthentication)
+            }
+//            authentication {
+//                basic(BasicAuthentication)
+//            }
+
+        }
+
+    }
+}
+rootProject.name = "FlexApp-Android"
+include ':app'
