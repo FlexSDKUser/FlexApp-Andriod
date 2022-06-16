@@ -1,2 +1,2 @@
-# FlexSampleMobIos
-Flex Sample Mob App for iOS
+# FlexApp-Andriod
+FlexApp for Andriod
