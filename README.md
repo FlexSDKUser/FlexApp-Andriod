@@ -44,7 +44,7 @@ _File > New > New Project_…
 ![Create new android app](https://create-s3-test1.s3.ap-northeast-2.amazonaws.com/readme-andr-sdk/CreateProj.png "Create new android app")  
 Provide your desired application and package name.
 Click Next and then click Finish.
-> **Note**: You need this package name to generate google-services.json file for your application to support firebase push notification and other services.
+> **Note**: This package name is also needed to generate google-services.json file for your application to support firebase push notification and other services.
 
 
 ### Step 2: Add the following code to your `settings.gradle` file:
