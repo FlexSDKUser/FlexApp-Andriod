@@ -15,7 +15,7 @@
         <meta-data
             tools:replace="android:resource"
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/apple_icon" />
+            android:resource="@mipmap/ic_launcher" />
     </application>
 
 </manifest>
