@@ -25,7 +25,7 @@ The Flextudio SDK enables use of all features and services supported by flextudi
 
 The minimum requirements for the Flextudio SDK for Android are:
 - `Android Studio Chipmunk(2021.2.1) or higher`
-- `Android 4.4 (API level 19) or higher`
+- `Android 10 (API level 29) or higher`
 - `Java 11 or higher`
 - `Android Gradle plugin 7.2.0 or higher`
 
@@ -106,7 +106,7 @@ inside **dependencies**, add this line
 ```gradle
 dependencies {
 	...
-	implementation 'kr.co.flexapp.andr:flex-lib:1.0.4'
+	implementation 'kr.co.flexapp.andr:flex-lib:1.0.5'
 	...
 }
 ```
