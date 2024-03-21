@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">FlexApp-Android</string>
+
+    <string name="Cancel" translatable="true">취소</string>
+    <string name="allowedUsers"> 허용된 사용자</string>
+    <string name="beacon_message1">메시지를 받았습니다.</string>
+    <string name="cancel">취소</string>
+    <string name="checkInvites">! 초대 메시지를 확인하세요.</string>
+    <string name="confirm">확인</string>
+    <string name="custom_dialog_okBtnText">확인</string>
+    <string name="exit_toast">"뒤로 가기 버튼을 다시 누르면 종료됩니다."</string>
+    <string name="getforminfo_new">forminfo 업데이트</string>
+    <string name="getlatestVersion">최신 버전을 가져와야 합니다. \n 마켓으로 이동합니다.</string>
+    <string name="gps_network_not_enabled" translatable="true">GPS와 네트워크가 활성화되지 않았습니다.\n활성화하시겠습니까?</string>
+    <string name="gps_off">위치 서비스를 켜주세요</string>
+    <string name="location_permission_info">위치 권한이 필요합니다</string>
+    <string name="loginSuccess">로그인 성공</string>
+    <string name="login_svc_authorizeduser_msg">권한이 있는 사용자만 접근 가능합니다</string>
+    <string name="login_svc_blocked_device_msg">이 기기는 서버에 접근이 거부되었습니다</string>
+    <string name="login_svc_wrong_pw_msg">비밀번호가 잘못되었습니다</string>
+    <string name="login_txt">로그인</string>
+    <string name="no">아니오</string>
+    <string name="noInvitation">죄송합니다. 귀하의 전화번호는 초대되지 않았습니다</string>
+    <string name="no_app_for_file">파일 유형을 처리할 수 있는 애플리케이션이 없습니다</string>
+    <string name="no_precision">이 앱은 정확한 위치 정보가 필요합니다</string>
+    <string name="ok">확인</string>
+    <string name="open_location_settings" translatable="true">위치 설정 열기</string>
+    <string name="passwordBox_hinttext">인증 번호 입력</string>
+    <string name="password_change_success">비밀번호가 변경되었습니다.</string>
+    <string name="password_check_loginpassword_msg">로그인 비밀번호를 확인하세요.</string>
+    <string name="password_check_rules_msg">비밀번호 규칙을 확인하세요.</string>
+    <string name="password_no_respond_msg">서버가 응답하지 않습니다</string>
+    <string name="password_notmatch_msg">새 비밀번호가 일치하지 않습니다.</string>
+    <string name="password_temp_message">비밀번호를 변경하시겠습니까?</string>
+    <string name="password_temp_message_title">임시 비밀번호를 변경해주세요.</string>
+    <string name="phonelogin_confirmBtn_text">확인</string>
+    <string name="phonelogin_fail_message">전화번호가 존재하지 않습니다.</string>
+    <string name="phoneno_txt">휴대폰 번호</string>
+    <string name="re_request_pin">핀 번호 재요청</string>
+    <string name="samePhone">\u0020 동일한 전화번호를 가지고 있습니다. 관리자에게 문의하세요.</string>
+    <string name="scanarioLoadFailed">프로그램을 열지 못했습니다. 네트워크를 확인하세요.</string>
+    <string name="sessionExpired">세션이 만료되었습니다. 다시 로그인해주세요.</string>
+    <string name="setting_defaultTxtsize_value">보통</string>
+    <string name="smsSuccessful">초대를 확인했습니다. 인증 코드를 확인하세요.</string>
+    <string name="storage_permission_info">저장소 권한이 필요합니다</string>
+    <string name="ui_setting_text">설정</string>
+    <string name="unsuccessful">실패</string>
+    <string name="verificationBtn_text">핀 번호 요청</string>
+    <string name="weblink_host">모바일</string>
+    <string name="wrongCode">죄송합니다. 잘못된 인증 코드입니다. 받은 SMS를 확인하세요.</string>
+    <string name="yes">예</string>
 </resources>

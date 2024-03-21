@@ -106,7 +106,7 @@ inside **dependencies**, add this line
 ```gradle
 dependencies {
 	...
-	implementation 'kr.co.flexapp.andr:flex-lib:1.0.6'
+	implementation 'kr.co.flexapp.andr:flex-lib:1.0.7'
 	...
 	modules {
         module("org.jetbrains.kotlin:kotlin-stdlib-jdk7") {
