@@ -65,15 +65,7 @@ dependencyResolutionManagement {
         }
         maven { url "https://jitpack.io" }
         maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases' }
-        maven { url "https://raw.githubusercontent.com/FlexSDKCreator/SDK_Andriod/main"
-            credentials(HttpHeaderCredentials) {
-                name "Authorization"
-                value "Bearer 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"
-            }
-            authentication {
-                header(HttpHeaderAuthentication)
-            }
-        }
+        maven { url "https://raw.githubusercontent.com/FlexSDKCreator/SDK_Andriod/main" }
 		//copy end
 		...
     }
