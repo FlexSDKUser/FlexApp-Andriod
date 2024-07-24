@@ -26,8 +26,9 @@ The Flextudio SDK enables use of all features and services supported by flextudi
 The minimum requirements for the Flextudio SDK for Android are:
 - `Android Studio Chipmunk(2021.2.1) or higher`
 - `Android 10 (API level 29) or higher`
-- `Java 11 or higher`
-- `Android Gradle plugin 7.2.0 or higher`
+- `Java 17`
+- `Android Gradle plugin 8.1.1 or higher`
+- `compileSdk 34`
 
 > **Note**: Flextudio SDK includes initialization of firebase push notification and other dependencies. You are only required to include google-services.json corresponding to your package Id to take full advantage of flextudio push notification services.
 
@@ -77,7 +78,7 @@ Also, open `build.gradle`(Project: *) file from _Project > build.gradle_ and add
 ```gradle
 buildscript {
     dependencies {
-        classpath 'com.google.gms:google-services:4.4.0'
+        classpath 'com.google.gms:google-services:4.4.2'
     }
 }
 ```
@@ -98,16 +99,20 @@ inside **dependencies**, add this line
 ```gradle
 dependencies {
 	...
-	implementation 'kr.co.flexapp.andr:flex-lib:1.0.7'
+	implementation 'kr.co.flexapp.andr:flex-lib:1.0.8'
 	...
-	modules {
-        module("org.jetbrains.kotlin:kotlin-stdlib-jdk7") {
-            replacedBy("org.jetbrains.kotlin:kotlin-stdlib", "kotlin-stdlib-jdk7 is now part of kotlin-stdlib")
-        }
-        module("org.jetbrains.kotlin:kotlin-stdlib-jdk8") {
-            replacedBy("org.jetbrains.kotlin:kotlin-stdlib", "kotlin-stdlib-jdk8 is now part of kotlin-stdlib")
-        }
+}
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    ...
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
+    ...
 }
 ```
 > Note: This is the most important part of adding flextudio SDK dependencies to your app project.
