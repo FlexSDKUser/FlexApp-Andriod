@@ -24,7 +24,7 @@ The Flextudio SDK enables use of all features and services supported by flextudi
 ## Requirements
 
 The minimum requirements for the Flextudio SDK for Android are:
-- `Android Studio Chipmunk(2021.2.1) or higher`
+- `Android Studio Giraffe(2022.3.1) or higher`
 - `Android 10 (API level 29) or higher`
 - `Java 17`
 - `Android Gradle plugin 8.1.1 or higher`
