@@ -24,11 +24,11 @@ The Flextudio SDK enables use of all features and services supported by flextudi
 ## Requirements
 
 The minimum requirements for the Flextudio SDK for Android are:
-- `Android Studio Giraffe(2022.3.1) or higher`
-- `Android 10 (API level 29) or higher`
+- `Android Studion Koala (2024.1.1) or higher`
+- `Android 5 (API level 21) or higher`
 - `Java 17`
-- `Android Gradle plugin 8.1.1 or higher`
-- `compileSdk 34`
+- `Android Gradle plugin 8.5.0 or higher`
+- `compileSdk 35`
 
 > **Note**: Flextudio SDK includes initialization of firebase push notification and other dependencies. You are only required to include google-services.json corresponding to your package Id to take full advantage of flextudio push notification services.
 
@@ -99,7 +99,7 @@ inside **dependencies**, add this line
 ```gradle
 dependencies {
 	...
-	implementation 'kr.co.flexapp.andr:flex-lib:1.0.16'
+	implementation 'kr.co.flexapp.andr:flex-lib:1.0.23'
 	...
 }
 plugins {
