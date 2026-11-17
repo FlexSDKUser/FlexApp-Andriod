@@ -19,7 +19,7 @@ The Flextudio SDK for Android allows us to easily build native app to run module
 
 ### How it works
 
-The Flextudio SDK enables use of all features and services supported by flextudio platform. By simply adding the SDK dependencies into a new android app project, a fully functional flex app can be built without any other setup or initalization.
+The Flextudio SDK enables use of all features and services supported by flextudio platform. By simply adding the SDK dependencies into a new android app project, a fully functional flex app can be built without any other setup or initialization.
 
 ## Requirements
 
@@ -92,14 +92,14 @@ Also, open `build.gradle`(Module: *.app) file from _Project > app> build.gradle_
 apply plugin: 'com.google.gms.google-services'
 ```
 
-> Note: Make sure the above code block isn't added to your project `build.gradle` file. Google services plugin is required to enable firebase notification and other services. You should skip this plugin if you skipped Step 2.
+> Note: Make sure the above code block isn't added to your project `build.gradle` file. Google services plugin is required to enable firebase notification and other services. You should skip this plugin if you skipped Step 3.
 
 #### Part 2 - Add Flextudio SDK
 inside **dependencies**, add this line
 ```gradle
 dependencies {
 	...
-	implementation 'kr.co.flexapp.andr:flex-lib:1.0.23'
+	implementation 'kr.co.flexapp.andr:flex-lib:1.0.30'
 	...
 }
 plugins {
@@ -120,7 +120,7 @@ android {
 ### Step 5: Add `google-services.json` file into the module(app-level) directory of your app  
 This file is generated from [Firebase Console](https://console.firebase.google.com/ "Firebase Console") for the package id of your project.  
 ![Add google-services.json file](https://create-s3-test1.s3.ap-northeast-2.amazonaws.com/readme-andr-sdk/googlesvc.png "Add google-services.json file")
-> Note: It is required to register the app in firebase project and provide Flextudio Team 'Server key' to send push notifiications to your apps. Alternatively, we (Flextudio Team) can assist you to generate the  `google-services.json` file. This step can be skipped if you didn't complete Step 3 and Step 4 - Part 1.
+> Note: It is required to register the app in firebase project and provide Flextudio Team 'Server key' to send push notifications to your apps. This step can be skipped if you didn't complete Step 3 and Step 4 - Part 1.
 
 ### Step 6: In `gradle.properties`, add  line
 Open file `gradle.properties` from _Project > gradle.properties_ and add  line
@@ -129,7 +129,7 @@ android.useAndroidX=true
 android.enableJetifier=true
 ```
 ### Step 7: Sync your gradle files
-The setup requied for using the Flextudio SDK in your app is already complete. Press *Sync Now* to load dependencies to your local machine. (_File > Sync Project with Gradle Files_)
+The setup required for using the Flextudio SDK in your app is already complete. Press *Sync Now* to load dependencies to your local machine. (_File > Sync Project with Gradle Files_)
 
 ### Step 8: Run app
 Now, build  and run the project.
